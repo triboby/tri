@@ -1,0 +1,13 @@
+{
+  "name": "tri",
+  "version": "1.0.0",
+  "description": "this is mine",
+  "main": "index.js",
+  "repository": "https://github.com/triboby/tri.git",
+  "author": "seedbob@gmail.com",
+  "license": "MIT",
+  "private:": true,
+  "devDependencies": {
+    "lerna": "^3.8.0"
+  }
+}
