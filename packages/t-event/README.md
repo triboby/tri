@@ -1,11 +1,11 @@
-# `html-parse`
+# `t-event`
 
 > TODO: description
 
 ## Usage
 
 ```
-const htmlParse = require('html-parse');
+const tEvent = require('t-event');
 
 // TODO: DEMONSTRATE API
 ```
