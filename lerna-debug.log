@@ -1,0 +1,13 @@
+0 silly argv { _: [ 'bootstrap' ], lernaVersion: '3.14.1', '$0': 'lerna' }
+1 notice cli v3.14.1
+2 verbose rootPath /Users/shaoyuyun/Documents/GitHub/tri
+3 error Error: Invalid package name "@trib": name can only contain URL-friendly characters
+3 error     at invalidPackageName (/Users/shaoyuyun/Documents/GitHub/tri/node_modules/npm-package-arg/npa.js:82:15)
+3 error     at Result.setName (/Users/shaoyuyun/Documents/GitHub/tri/node_modules/npm-package-arg/npa.js:118:11)
+3 error     at new Result (/Users/shaoyuyun/Documents/GitHub/tri/node_modules/npm-package-arg/npa.js:107:23)
+3 error     at Function.resolve (/Users/shaoyuyun/Documents/GitHub/tri/node_modules/npm-package-arg/npa.js:54:15)
+3 error     at Object.keys.forEach.depName (/Users/shaoyuyun/Documents/GitHub/tri/node_modules/@lerna/package-graph/index.js:112:30)
+3 error     at Array.forEach (<anonymous>)
+3 error     at PackageGraph.forEach (/Users/shaoyuyun/Documents/GitHub/tri/node_modules/@lerna/package-graph/index.js:106:38)
+3 error     at Map.forEach (<anonymous>)
+3 error     at new PackageGraph (/Users/shaoyuyun/Documents/GitHub/tri/node_modules/@lerna/package-graph/index.js:95:10)

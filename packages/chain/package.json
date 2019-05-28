@@ -1,10 +1,10 @@
 {
-  "name": "t-event",
+  "name": "@trib/chain",
   "version": "0.0.0",
-  "description": "> TODO: description",
+  "description": "",
   "author": "hzshaoyy <hzshaoyy@corp.netease.com>",
   "homepage": "",
-  "license": "MIT",
+  "license": "ISC",
   "main": "lib/index.js",
   "directories": {
     "lib": "lib",
@@ -15,5 +15,8 @@
   ],
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@trib/event": "*"
   }
 }

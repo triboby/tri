@@ -1,7 +1,7 @@
 type EventHandler = (event?: any) => void;
 
-export default class Event {
-  private cache = {};
+export default class Emitter {
+  private cache: any = {};
 
   on(type: string, handler: EventHandler) {
     if (typeof handler === "function") {
