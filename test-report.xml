@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite id="0" name="/Users/shaoyuyun/Documents/GitHub/tri/packages/t-event/__tests__/Emitter.test.ts" errors="0" package="/Users/shaoyuyun/Documents/GitHub/tri/packages/t-event/__tests__/Emitter.test.ts" hostname="localhost" tests="6" failures="0" time="0.107" timestamp="2019-05-27T11:31:57">
+  <testsuite id="0" name="/Users/shaoyuyun/Documents/GitHub/tri/packages/event/__tests__/Emitter.test.ts" errors="0" package="/Users/shaoyuyun/Documents/GitHub/tri/packages/event/__tests__/Emitter.test.ts" hostname="localhost" tests="6" failures="0" time="1.754" timestamp="2019-05-29T16:12:04">
     <properties>
     </properties>
-    <testcase classname="on()" name="should be a function" time="0">
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="1" name="/Users/shaoyuyun/Documents/GitHub/tri/packages/chain/__tests__/Chain.ts" errors="0" package="/Users/shaoyuyun/Documents/GitHub/tri/packages/chain/__tests__/Chain.ts" hostname="localhost" tests="1" failures="0" time="1.792" timestamp="2019-05-29T16:12:04">
+    <properties>
+    </properties>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="2" name="/Users/shaoyuyun/Documents/GitHub/tri/packages/chain/__tests__/Compose.ts" errors="0" package="/Users/shaoyuyun/Documents/GitHub/tri/packages/chain/__tests__/Compose.ts" hostname="localhost" tests="3" failures="0" time="3.464" timestamp="2019-05-29T16:12:04">
+    <properties>
+    </properties>
+    <testcase classname="iterate" name="should calculate right" time="0">
     </testcase>
-    <testcase classname="off()" name="should be a function" time="0">
+    <testcase classname="iterate" name="should calculate right" time="0">
     </testcase>
-    <testcase classname="emit()" name="should be a function" time="0">
-    </testcase>
-    <testcase classname="emit()" name="should invoke handler for type" time="0">
-    </testcase>
-    <testcase classname="emit()" name="should NOT ignore case" time="0">
-    </testcase>
-    <testcase classname="emit()" name="should do nothing if no event added" time="0">
+    <testcase classname="composePromiseK" name="should calculate right" time="0">
     </testcase>
     <system-out/>
     <system-err/>

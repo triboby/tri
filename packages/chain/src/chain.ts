@@ -1,28 +1,42 @@
-// type Cb = (options: any, next: Function) => {};
+import { ChainItem } from "./ChainItem";
 
-// export class Chain {
-//     chain: Array<Cb> = [];
+export class Chain {
+  private _chain: Array<ChainItem> = [];
 
-//     constructor() {
+  constructor() {}
 
-//     }
+  use(item: ChainItem) {
+    if (item) {
+      this._chain.push(item);
+    }
+  }
 
-//     use(item: Cb) {
-//         if(item) {
-//             this.chain.push((callback, next) => {
-//                 item(options);
+  /**
+   *
+   *
+   *
+   */
+  // compose() {
+  //     this._chain.reduce((pre, cur)=> (...args) => pre(cur(...args)));
+  // }
 
-//                 next();
-//             });
-//         }
-//     }
+  // exec() {
 
-//     exec(options, finish) {
-//         let queue = [...this.chain];
+  // }
 
-//         while(queue.length > 0){
-//             let x = queue.shift();
-//             x(options, queue[0])
-//         }
-//     }
-// }
+  // async exec(options: any) {
+  //     let i = 0;
+  //     let opts = {...options};
+
+  //     let next = async() => {
+  //         if(i == this._chain.length){
+  //             return Promise.resolve(opts)
+  //         }
+
+  //         let it = this._chain[i++];
+  //         return await it(opts, next);
+  //     }
+
+  //     return await next();
+  // }
+}

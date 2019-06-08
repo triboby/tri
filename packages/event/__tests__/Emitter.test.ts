@@ -1,10 +1,10 @@
-import Event from "../src/Emitter";
+import { Emitter } from "../src/Emitter";
 
 describe("Event#", () => {
-  let event: Event;
+  let event: Emitter;
 
   beforeEach(() => {
-    event = new Event();
+    event = new Emitter();
   });
 
   describe("on()", () => {

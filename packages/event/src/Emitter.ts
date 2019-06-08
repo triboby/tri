@@ -1,6 +1,6 @@
 type EventHandler = (event?: any) => void;
 
-export default class Emitter {
+export class Emitter {
   private cache: any = {};
 
   on(type: string, handler: EventHandler) {

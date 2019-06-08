@@ -1,5 +1,1 @@
-// import { Emitter } from '@trib/event';
-
-// export class ChainItem extends Emitter {
-
-// }
+export type ChainItem = (options: any, next: Function) => void;
